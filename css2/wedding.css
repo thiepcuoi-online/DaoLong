@@ -46,7 +46,7 @@
         width: 50px; /* Tăng kích thước cho mobile */
         height: 50px;
         top: 20px; /* Điều chỉnh vị trí nếu cần */
-        right: 20%;
+        right: 5%;
         z-index: 999;
     }
 }
@@ -54,10 +54,10 @@
 @media screen and (max-width: 480px) {
     .toggleAudio {
         position: fixed;
-        width: 60px; /* Tăng kích thước hơn nữa trên điện thoại nhỏ */
-        height: 60px;
+        width: 50px; /* Tăng kích thước hơn nữa trên điện thoại nhỏ */
+        height: 50px;
         top: 10px;  /* Điều chỉnh vị trí */
-        right: 15%;
+        right: 5%;
         z-index: 999;
     }
 }
